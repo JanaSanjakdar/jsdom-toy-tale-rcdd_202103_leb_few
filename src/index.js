@@ -50,6 +50,7 @@ function likes(e) {
       e.target.previousElementSibling.innerText = `${more} likes`;
     }))
 }
+
 //render function
 function renderToys(toy) {
   let h2 = document.createElement('h2')
